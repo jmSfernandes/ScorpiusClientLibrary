@@ -19,8 +19,40 @@ In the Android application we must call the following lines in the MainActivity.
 ````csharp
   CrossScorpiusClient.Current.Init(this);
   CrossScorpiusClient.Current.SetCallback((remoteMessage) => {
+     
+    var remoteMessage = message as RemoteMessage;
     //your logic here code here 
   });
+
+````
+
+you can also encapsulate the logic of the receiver into a different class and pass a method as the callback:
+
+````csharp
+
+  public class MyMessageReceiver
+    {
+        //private const string NewsChannelId = "1";
+        //private const string NewsChannelDescription = "Alert";
+        //private readonly long[] _vibrationPattern = {500, 500, 500, 500, 500, 500, 500, 500, 500};
+        //private NotificationManager _notificationManager;
+        private const string Tag = "MyFirebaseMessagingService";
+
+
+        public static void OnMessageReceived(object message)
+        {
+            var remoteMessage = message as RemoteMessage;
+
+           // my logic here
+    
+       }
+   }
+   
+   ...
+  
+  CrossScorpiusClient.Current.SetCallback(MyMessageReceiver.OnMessageReceive);
+
+
 
 ````
 
@@ -97,6 +129,23 @@ You should also add the following information to your info.plist file
 <string>processing</string>
 </array>
 
+````
+
+
+## Use the library to subscribe to topics
+
+````csharp
+        var topic ="my_topic_name"; 
+        CrossScorpiusClient.Current.SubscribeToSingleTopic(topic);
+        
+        //library can be use to iterate over a list of topics
+        var topics = new List<string>{"first_topic", "second_topic"};
+        CrossScorpiusClient.Current.SubscribeToMultipleTopics(topics);
+        
+        // you can also unsubscribe to one or multiple topics
+        CrossScorpiusClient.Current.UnSubscribeFromSingleTopics(topic);
+        CrossScorpiusClient.Current.UnSubscribeFromMultipleTopics(topics);
+        
 ````
 
 ## LICENSE
