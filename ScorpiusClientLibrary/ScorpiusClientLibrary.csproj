@@ -5,9 +5,17 @@
         <TargetFrameworks>netstandard2.0;Xamarin.iOS10;MonoAndroid10.0</TargetFrameworks>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
-        <PackageVersion>1.0.1</PackageVersion>
+        <PackageVersion>1.0.0</PackageVersion>
         <LangVersion>8.0</LangVersion>
         <RootNamespace>ScorpiusClientLibrary</RootNamespace>
+        <Title>A Cross  Plaftorm library to support Firebase Cloud Messages</Title>
+        <Description>This library deals with platform specific code to subscribe and receive Firebase notifications through specific topics.
+This can be used in client applications, in cooperation with the ScorpiusGE.</Description>
+        <PackageProjectUrl>https://github.com/jmSfernandes/ScorpiusClientLibrary</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/jmSfernandes/ScorpiusClientLibrary</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>FCM, ScorpiusGE, XAMARIN</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>

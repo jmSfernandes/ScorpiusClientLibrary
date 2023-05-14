@@ -8,13 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("SocialiteSensors.Android.Resource", IsApplication=false)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("ScorpiusClient.Android.Resource", IsApplication=false)]
 
-namespace SocialiteSensors.Android
+namespace ScorpiusClient.Android
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.1.0.5")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "13.2.0.93")]
 	public partial class Resource
 	{
 		
@@ -26,24 +26,6 @@ namespace SocialiteSensors.Android
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7F010000
-			public static int buttonSize = 2130771968;
-			
-			// aapt resource value: 0x7F010001
-			public static int circleCrop = 2130771969;
-			
-			// aapt resource value: 0x7F010002
-			public static int colorScheme = 2130771970;
-			
-			// aapt resource value: 0x7F010003
-			public static int imageAspectRatio = 2130771971;
-			
-			// aapt resource value: 0x7F010004
-			public static int imageAspectRatioAdjust = 2130771972;
-			
-			// aapt resource value: 0x7F010005
-			public static int scopeUris = 2130771973;
-			
 			static Attribute()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -54,246 +36,14 @@ namespace SocialiteSensors.Android
 			}
 		}
 		
-		public partial class Color
-		{
-			
-			// aapt resource value: 0x7F020000
-			public static int common_google_signin_btn_text_dark = 2130837504;
-			
-			// aapt resource value: 0x7F020001
-			public static int common_google_signin_btn_text_dark_default = 2130837505;
-			
-			// aapt resource value: 0x7F020002
-			public static int common_google_signin_btn_text_dark_disabled = 2130837506;
-			
-			// aapt resource value: 0x7F020003
-			public static int common_google_signin_btn_text_dark_focused = 2130837507;
-			
-			// aapt resource value: 0x7F020004
-			public static int common_google_signin_btn_text_dark_pressed = 2130837508;
-			
-			// aapt resource value: 0x7F020005
-			public static int common_google_signin_btn_text_light = 2130837509;
-			
-			// aapt resource value: 0x7F020006
-			public static int common_google_signin_btn_text_light_default = 2130837510;
-			
-			// aapt resource value: 0x7F020007
-			public static int common_google_signin_btn_text_light_disabled = 2130837511;
-			
-			// aapt resource value: 0x7F020008
-			public static int common_google_signin_btn_text_light_focused = 2130837512;
-			
-			// aapt resource value: 0x7F020009
-			public static int common_google_signin_btn_text_light_pressed = 2130837513;
-			
-			// aapt resource value: 0x7F02000A
-			public static int common_google_signin_btn_tint = 2130837514;
-			
-			static Color()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Color()
-			{
-			}
-		}
-		
-		public partial class Drawable
-		{
-			
-			// aapt resource value: 0x7F030000
-			public static int common_full_open_on_phone = 2130903040;
-			
-			// aapt resource value: 0x7F030001
-			public static int common_google_signin_btn_icon_dark = 2130903041;
-			
-			// aapt resource value: 0x7F030002
-			public static int common_google_signin_btn_icon_dark_focused = 2130903042;
-			
-			// aapt resource value: 0x7F030003
-			public static int common_google_signin_btn_icon_dark_normal = 2130903043;
-			
-			// aapt resource value: 0x7F030004
-			public static int common_google_signin_btn_icon_dark_normal_background = 2130903044;
-			
-			// aapt resource value: 0x7F030005
-			public static int common_google_signin_btn_icon_disabled = 2130903045;
-			
-			// aapt resource value: 0x7F030006
-			public static int common_google_signin_btn_icon_light = 2130903046;
-			
-			// aapt resource value: 0x7F030007
-			public static int common_google_signin_btn_icon_light_focused = 2130903047;
-			
-			// aapt resource value: 0x7F030008
-			public static int common_google_signin_btn_icon_light_normal = 2130903048;
-			
-			// aapt resource value: 0x7F030009
-			public static int common_google_signin_btn_icon_light_normal_background = 2130903049;
-			
-			// aapt resource value: 0x7F03000A
-			public static int common_google_signin_btn_text_dark = 2130903050;
-			
-			// aapt resource value: 0x7F03000B
-			public static int common_google_signin_btn_text_dark_focused = 2130903051;
-			
-			// aapt resource value: 0x7F03000C
-			public static int common_google_signin_btn_text_dark_normal = 2130903052;
-			
-			// aapt resource value: 0x7F03000D
-			public static int common_google_signin_btn_text_dark_normal_background = 2130903053;
-			
-			// aapt resource value: 0x7F03000E
-			public static int common_google_signin_btn_text_disabled = 2130903054;
-			
-			// aapt resource value: 0x7F03000F
-			public static int common_google_signin_btn_text_light = 2130903055;
-			
-			// aapt resource value: 0x7F030010
-			public static int common_google_signin_btn_text_light_focused = 2130903056;
-			
-			// aapt resource value: 0x7F030011
-			public static int common_google_signin_btn_text_light_normal = 2130903057;
-			
-			// aapt resource value: 0x7F030012
-			public static int common_google_signin_btn_text_light_normal_background = 2130903058;
-			
-			// aapt resource value: 0x7F030013
-			public static int googleg_disabled_color_18 = 2130903059;
-			
-			// aapt resource value: 0x7F030014
-			public static int googleg_standard_color_18 = 2130903060;
-			
-			static Drawable()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Drawable()
-			{
-			}
-		}
-		
-		public partial class Id
-		{
-			
-			// aapt resource value: 0x7F040000
-			public static int adjust_height = 2130968576;
-			
-			// aapt resource value: 0x7F040001
-			public static int adjust_width = 2130968577;
-			
-			// aapt resource value: 0x7F040002
-			public static int auto = 2130968578;
-			
-			// aapt resource value: 0x7F040003
-			public static int dark = 2130968579;
-			
-			// aapt resource value: 0x7F040004
-			public static int icon_only = 2130968580;
-			
-			// aapt resource value: 0x7F040005
-			public static int light = 2130968581;
-			
-			// aapt resource value: 0x7F040006
-			public static int none = 2130968582;
-			
-			// aapt resource value: 0x7F040007
-			public static int standard = 2130968583;
-			
-			// aapt resource value: 0x7F040008
-			public static int wide = 2130968584;
-			
-			static Id()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Id()
-			{
-			}
-		}
-		
-		public partial class Integer
-		{
-			
-			// aapt resource value: 0x7F050000
-			public static int google_play_services_version = 2131034112;
-			
-			static Integer()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Integer()
-			{
-			}
-		}
-		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F060000
-			public static int app_name = 2131099648;
+			// aapt resource value: 0x7F010000
+			public static int app_name = 2130771968;
 			
-			// aapt resource value: 0x7F060001
-			public static int common_google_play_services_enable_button = 2131099649;
-			
-			// aapt resource value: 0x7F060002
-			public static int common_google_play_services_enable_text = 2131099650;
-			
-			// aapt resource value: 0x7F060003
-			public static int common_google_play_services_enable_title = 2131099651;
-			
-			// aapt resource value: 0x7F060004
-			public static int common_google_play_services_install_button = 2131099652;
-			
-			// aapt resource value: 0x7F060005
-			public static int common_google_play_services_install_text = 2131099653;
-			
-			// aapt resource value: 0x7F060006
-			public static int common_google_play_services_install_title = 2131099654;
-			
-			// aapt resource value: 0x7F060007
-			public static int common_google_play_services_notification_channel_name = 2131099655;
-			
-			// aapt resource value: 0x7F060008
-			public static int common_google_play_services_notification_ticker = 2131099656;
-			
-			// aapt resource value: 0x7F060009
-			public static int common_google_play_services_unknown_issue = 2131099657;
-			
-			// aapt resource value: 0x7F06000A
-			public static int common_google_play_services_unsupported_text = 2131099658;
-			
-			// aapt resource value: 0x7F06000B
-			public static int common_google_play_services_update_button = 2131099659;
-			
-			// aapt resource value: 0x7F06000C
-			public static int common_google_play_services_update_text = 2131099660;
-			
-			// aapt resource value: 0x7F06000D
-			public static int common_google_play_services_update_title = 2131099661;
-			
-			// aapt resource value: 0x7F06000E
-			public static int common_google_play_services_updating_text = 2131099662;
-			
-			// aapt resource value: 0x7F06000F
-			public static int common_google_play_services_wear_update_text = 2131099663;
-			
-			// aapt resource value: 0x7F060010
-			public static int common_open_on_phone = 2131099664;
-			
-			// aapt resource value: 0x7F060011
-			public static int common_signin_button_text = 2131099665;
-			
-			// aapt resource value: 0x7F060012
-			public static int common_signin_button_text_long = 2131099666;
-			
-			// aapt resource value: 0x7F060013
-			public static int hello = 2131099667;
+			// aapt resource value: 0x7F010001
+			public static int hello = 2130771969;
 			
 			static String()
 			{
@@ -301,65 +51,6 @@ namespace SocialiteSensors.Android
 			}
 			
 			private String()
-			{
-			}
-		}
-		
-		public partial class Styleable
-		{
-			
-			// aapt resource value: { 0x7F010001,0x7F010003,0x7F010004 }
-			public static int[] LoadingImageView = new int[] {
-					2130771969,
-					2130771971,
-					2130771972};
-			
-			// aapt resource value: 0
-			public static int LoadingImageView_circleCrop = 0;
-			
-			// aapt resource value: 1
-			public static int LoadingImageView_imageAspectRatio = 1;
-			
-			// aapt resource value: 2
-			public static int LoadingImageView_imageAspectRatioAdjust = 2;
-			
-			// aapt resource value: { 0x7F010000,0x7F010002,0x7F010005 }
-			public static int[] SignInButton = new int[] {
-					2130771968,
-					2130771970,
-					2130771973};
-			
-			// aapt resource value: 0
-			public static int SignInButton_buttonSize = 0;
-			
-			// aapt resource value: 1
-			public static int SignInButton_colorScheme = 1;
-			
-			// aapt resource value: 2
-			public static int SignInButton_scopeUris = 2;
-			
-			static Styleable()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Styleable()
-			{
-			}
-		}
-		
-		public partial class Xml
-		{
-			
-			// aapt resource value: 0x7F080000
-			public static int xamarin_essentials_fileprovider_file_paths = 2131230720;
-			
-			static Xml()
-			{
-				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
-			}
-			
-			private Xml()
 			{
 			}
 		}
