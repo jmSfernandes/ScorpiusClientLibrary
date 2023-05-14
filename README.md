@@ -1,5 +1,7 @@
 # ScorpiusClientLibrary
-
+# NgsiBaseModel 4 C#
+[![Nuget badge](https://img.shields.io/nuget/v/ScorpiusClientLibrary)](https://www.nuget.org/packages/ScorpiusClientLibrary)
+[![Nuget badge](https://img.shields.io/nuget/dt/ScorpiusClientLibrary)](https://www.nuget.org/packages/ScorpiusClientLibrary)
 This library deals with platform specific code to subscribe and receive Firebase notifications through specific topics.
 This can be used in client applications, in cooperation with the [ScorpiusGE](https://github.com/jmSfernandes/ScorpiusGE).
 
