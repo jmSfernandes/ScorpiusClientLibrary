@@ -73,7 +73,7 @@ You should also add the following lines to your manifest.xml
                 <category android:name="${applicationId}"/>
             </intent-filter>
         </receiver>
-    </application>
+  </application>
 
 ````
 
@@ -125,12 +125,12 @@ Like shown below
 
 You should also add the following information to your info.plist file
 ````xml
-<key>UIBackgroundModes</key>
-<array>
-<string>fetch</string>
-<string>remote-notification</string>
-<string>processing</string>
-</array>
+    <key>UIBackgroundModes</key>
+    <array>
+    <string>fetch</string>
+    <string>remote-notification</string>
+    <string>processing</string>
+    </array>
 
 ````
 
@@ -138,16 +138,16 @@ You should also add the following information to your info.plist file
 ## Use the library to subscribe to topics
 
 ````csharp
-        var topic ="my_topic_name"; 
-        CrossScorpiusClient.Current.SubscribeToSingleTopic(topic);
-        
-        //library can be use to iterate over a list of topics
-        var topics = new List<string>{"first_topic", "second_topic"};
-        CrossScorpiusClient.Current.SubscribeToMultipleTopics(topics);
-        
-        // you can also unsubscribe to one or multiple topics
-        CrossScorpiusClient.Current.UnSubscribeFromSingleTopics(topic);
-        CrossScorpiusClient.Current.UnSubscribeFromMultipleTopics(topics);
+    var topic ="my_topic_name"; 
+    CrossScorpiusClient.Current.SubscribeToSingleTopic(topic);
+
+    //library can be use to iterate over a list of topics
+    var topics = new List<string>{"first_topic", "second_topic"};
+    CrossScorpiusClient.Current.SubscribeToMultipleTopics(topics);
+
+    // you can also unsubscribe to one or multiple topics
+    CrossScorpiusClient.Current.UnSubscribeFromSingleTopics(topic);
+    CrossScorpiusClient.Current.UnSubscribeFromMultipleTopics(topics);
         
 ````
 
